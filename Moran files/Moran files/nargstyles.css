@@ -1,0 +1,18 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+td {
+    padding: 10px;
+}
+.piojoso {
+    background-color: #000000 ;
+
+}
+.index {
+    background-color: #000000;
+    background-image: bandas.jpg;
+    background-size: cover;
+    background-repeat: no-repeat;       
+    background-position: center;   
+}
