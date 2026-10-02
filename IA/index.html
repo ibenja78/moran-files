@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inteligencia Artificial | Conceptos fundamentales</title>
+
+    <meta
+        name="description"
+        content="Guía interactiva sobre Inteligencia Artificial, Machine Learning, Deep Learning, LLM, tokens, modelos, extensiones y seguridad."
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVEGACIÓN
+    ========================== -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-symbol">AI</span>
+                <span>Inteligencia<span class="logo-accent">IA</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#conceptos">Conceptos</a></li>
+                <li><a href="#aprendizaje">Aprendizaje</a></li>
+                <li><a href="#llm">LLM</a></li>
+                <li><a href="#tokens">Tokens</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#ecosistema">Ecosistema</a></li>
+                <li><a href="#seguridad">Seguridad</a></li>
+                <li><a href="#interactivo">Interactivo</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-background"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    GUÍA DE INTELIGENCIA ARTIFICIAL
+                </div>
+
+                <h1>
+                    Entendé cómo
+                    <span>piensa</span>
+                    la IA
+                </h1>
+
+                <p class="hero-description">
+                    Una introducción visual e interactiva a los conceptos
+                    fundamentales que están detrás de los sistemas de
+                    Inteligencia Artificial modernos.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#conceptos" class="btn btn-primary">
+                        Explorar conceptos
+                    </a>
+
+                    <a href="#interactivo" class="btn btn-secondary">
+                        Probar simulador
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <strong>01</strong>
+                        <span>Aprendizaje</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>02</strong>
+                        <span>Modelos</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>03</strong>
+                        <span>Seguridad</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>04</strong>
+                        <span>Aplicaciones</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONCEPTOS
+        ========================== -->
+
+        <section class="section" id="conceptos">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">01 / FUNDAMENTOS</span>
+
+                    <h2>
+                        IA tradicional
+                        <span>vs.</span>
+                        IA generativa
+                    </h2>
+
+                    <p>
+                        No todos los sistemas de Inteligencia Artificial
+                        funcionan de la misma manera.
+                    </p>
+                </div>
+
+
+                <div class="comparison-grid">
+
+                    <article class="concept-card">
+
+                        <div class="card-icon">
+                            ◈
+                        </div>
+
+                        <span class="card-label">
+                            IA TRADICIONAL
+                        </span>
+
+                        <h3>
+                            Decidir y clasificar
+                        </h3>
+
+                        <p>
+                            La IA tradicional utiliza reglas, algoritmos
+                            o modelos entrenados para analizar información,
+                            clasificar datos y tomar decisiones dentro de
+                            un conjunto de posibilidades.
+                        </p>
+
+                        <ul class="feature-list">
+                            <li>Clasificación de información</li>
+                            <li>Predicción de resultados</li>
+                            <li>Detección de patrones</li>
+                            <li>Sistemas expertos</li>
+                        </ul>
+
+                    </article>
+
+
+                    <article class="concept-card featured">
+
+                        <div class="card-icon">
+                            ✦
+                        </div>
+
+                        <span class="card-label">
+                            IA GENERATIVA
+                        </span>
+
+                        <h3>
+                            Crear contenido
+                        </h3>
+
+                        <p>
+                            La IA generativa utiliza modelos capaces de
+                            producir contenido nuevo a partir de patrones
+                            aprendidos durante su entrenamiento.
+                        </p>
+
+                        <ul class="feature-list">
+                            <li>Texto</li>
+                            <li>Imágenes</li>
+                            <li>Audio</li>
+                            <li>Código y otros contenidos</li>
+                        </ul>
+
+                    </article>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <div class="info-box-title">
+                        DIFERENCIA FUNDAMENTAL
+                    </div>
+
+                    <p>
+                        Un sistema tradicional suele responder a una tarea
+                        definida mediante clasificación, predicción o reglas.
+                        Un sistema generativo puede utilizar patrones
+                        aprendidos para producir una nueva respuesta.
+                    </p>
+
+                </div>
+ <div class="video-container">
+
+    <div class="video-header">
+        <span class="video-label">VIDEO EXPLICATIVO</span>
+        <h3>IA tradicional vs. IA generativa</h3>
+        <p>
+            Mirá el siguiente video para profundizar en las diferencias
+            entre ambos conceptos.
+        </p>
+    </div>
+
+    <div class="video-wrapper">
+        <iframe
+            width="560" 
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/Vlr90yYg7fM" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div> 
+
+</div>
+
+</div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MACHINE LEARNING
+        ========================== -->
+
+        <section class="section section-dark" id="aprendizaje">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">02 / APRENDIZAJE</span>
+
+                    <h2>
+                        Machine Learning
+                        <span>&</span>
+                        Deep Learning
+                    </h2>
+
+                    <p>
+                        Dos conceptos fundamentales para entender cómo
+                        las máquinas pueden aprender a partir de datos.
+                    </p>
+                </div>
+
+
+                <div class="learning-diagram">
+
+                    <div class="learning-node main-node">
+                        <span>IA</span>
+                        <small>Inteligencia Artificial</small>
+                    </div>
+
+                    <div class="diagram-line"></div>
+
+                    <div class="learning-node">
+                        <span>ML</span>
+                        <small>Machine Learning</small>
+                    </div>
+
+                    <div class="diagram-line"></div>
+
+                    <div class="learning-node">
+                        <span>DL</span>
+                        <small>Deep Learning</small>
+                    </div>
+
+                </div>
+
+
+                <div class="three-column-grid">
+
+                    <article class="simple-card">
+                        <span class="mini-number">01</span>
+
+                        <h3>Machine Learning</h3>
+
+                        <p>
+                            Es un enfoque en el que un algoritmo aprende
+                            patrones a partir de datos para realizar una
+                            tarea sin tener que programar manualmente cada
+                            regla.
+                        </p>
+
+                        <div class="code-example">
+                            datos → entrenamiento → modelo
+                        </div>
+                    </article>
+
+
+                    <article class="simple-card">
+                        <span class="mini-number">02</span>
+
+                        <h3>Deep Learning</h3>
+
+                        <p>
+                            Es una rama del Machine Learning que utiliza
+                            redes neuronales con múltiples capas para
+                            aprender representaciones complejas.
+                        </p>
+
+                        <div class="code-example">
+                            entrada → capas → salida
+                        </div>
+                    </article>
+
+
+                    <article class="simple-card">
+                        <span class="mini-number">03</span>
+
+                        <h3>Relación</h3>
+
+                        <p>
+                            Deep Learning forma parte de Machine Learning,
+                            y Machine Learning forma parte del campo más
+                            amplio de la Inteligencia Artificial.
+                        </p>
+
+                        <div class="code-example">
+                            IA ⟶ ML ⟶ DL
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LLM
+        ========================== -->
+
+        <section class="section" id="llm">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">03 / MODELOS DE LENGUAJE</span>
+
+                    <h2>
+                        ¿Qué es un
+                        <span>LLM?</span>
+                    </h2>
+
+                    <p>
+                        Los grandes modelos de lenguaje son una de las
+                        tecnologías centrales de la IA generativa actual.
+                    </p>
+                </div>
+
+
+                <div class="llm-layout">
+
+                    <div class="llm-explanation">
+
+                        <h3>
+                            Large Language Model
+                        </h3>
+
+                        <p>
+                            Un LLM es un modelo de Inteligencia Artificial
+                            entrenado con grandes cantidades de datos
+                            lingüísticos para aprender patrones del lenguaje.
+                        </p>
+
+                        <p>
+                            Cuando recibe una entrada, calcula qué secuencia
+                            de tokens puede producir como continuación,
+                            utilizando los patrones aprendidos durante su
+                            entrenamiento.
+                        </p>
+
+                        <div class="formula">
+                            Entrada → modelo → probabilidades → salida
+                        </div>
+
+                    </div>
+
+
+                    <div class="training-card">
+
+                        <div class="training-step">
+                            <span>01</span>
+
+                            <div>
+                                <strong>Datos</strong>
+                                <p>
+                                    Textos, código y otros datos utilizados
+                                    para entrenar el modelo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="training-step">
+                            <span>02</span>
+
+                            <div>
+                                <strong>Entrenamiento</strong>
+                                <p>
+                                    El modelo ajusta sus parámetros para
+                                    aprender patrones.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="training-step">
+                            <span>03</span>
+
+                            <div>
+                                <strong>Inferencia</strong>
+                                <p>
+                                    El modelo utiliza lo aprendido para
+                                    generar una respuesta.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="phase-comparison">
+
+                    <div>
+                        <span>FASE 01</span>
+                        <h3>Entrenamiento</h3>
+                        <p>
+                            Es el proceso costoso de aprendizaje. El modelo
+                            procesa grandes cantidades de datos y modifica
+                            sus parámetros mediante optimización.
+                        </p>
+                    </div>
+
+                    <div class="phase-arrow">→</div>
+
+                    <div>
+                        <span>FASE 02</span>
+                        <h3>Inferencia</h3>
+                        <p>
+                            Es cuando utilizamos el modelo. Recibe una entrada
+                            y genera una respuesta utilizando los parámetros
+                            aprendidos.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TOKENS
+        ========================== -->
+
+        <section class="section section-dark" id="tokens">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">04 / TOKENS</span>
+
+                    <h2>
+                        Pensá en
+                        <span>tokens</span>
+                    </h2>
+
+                    <p>
+                        Los modelos de lenguaje no procesan exactamente
+                        palabras: procesan unidades llamadas tokens.
+                    </p>
+                </div>
+
+
+                <div class="token-demo">
+
+                    <div class="token-title">
+                        EJEMPLO DE TOKENIZACIÓN
+                    </div>
+
+                    <div class="token-text">
+                        <span>La</span>
+                        <span> inteligencia</span>
+                        <span> artificial</span>
+                        <span> aprende</span>
+                        <span> patrones</span>
+                    </div>
+
+                    <p>
+                        Una palabra puede corresponder a uno o varios tokens,
+                        dependiendo del modelo y del idioma.
+                    </p>
+
+                </div>
+
+
+                <div class="optimization-grid">
+
+                    <article>
+                        <span>01</span>
+                        <h3>Prompts concisos</h3>
+                        <p>
+                            Eliminá información repetida y mantené solamente
+                            el contexto necesario.
+                        </p>
+                    </article>
+
+                    <article>
+                        <span>02</span>
+                        <h3>Contexto relevante</h3>
+                        <p>
+                            Enviá solamente los fragmentos de información
+                            que el modelo necesita.
+                        </p>
+                    </article>
+
+                    <article>
+                        <span>03</span>
+                        <h3>Reutilizar resultados</h3>
+                        <p>
+                            Evitá volver a solicitar información que ya
+                            tenés disponible.
+                        </p>
+                    </article>
+
+                    <article>
+                        <span>04</span>
+                        <h3>Elegir el modelo</h3>
+                        <p>
+                            Para tareas simples puede ser suficiente un
+                            modelo más pequeño y económico.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CLASIFICACIÓN
+        ========================== -->
+
+        <section class="section" id="modelos">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">05 / CLASIFICACIÓN</span>
+
+                    <h2>
+                        Tipos de
+                        <span>modelos</span>
+                    </h2>
+
+                    <p>
+                        Los modelos pueden clasificarse utilizando diferentes
+                        criterios.
+                    </p>
+                </div>
+
+
+                <div class="model-table-wrapper">
+
+                    <table class="model-table">
+
+                        <thead>
+                            <tr>
+                                <th>Categoría</th>
+                                <th>Características</th>
+                                <th>Hardware</th>
+                                <th>Uso habitual</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <strong>Pequeños</strong>
+                                </td>
+
+                                <td>
+                                    Menor cantidad de parámetros y recursos.
+                                </td>
+
+                                <td>
+                                    CPU o GPU común
+                                </td>
+
+                                <td>
+                                    Tareas locales y dispositivos.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Medianos</strong>
+                                </td>
+
+                                <td>
+                                    Mayor capacidad y contexto.
+                                </td>
+
+                                <td>
+                                    GPU dedicada
+                                </td>
+
+                                <td>
+                                    Programación, análisis y asistentes.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Grandes</strong>
+                                </td>
+
+                                <td>
+                                    Alta capacidad de razonamiento y
+                                    generación.
+                                </td>
+
+                                <td>
+                                    Hardware especializado
+                                </td>
+
+                                <td>
+                                    Investigación y tareas complejas.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Especializados</strong>
+                                </td>
+
+                                <td>
+                                    Optimizados para una tarea o dominio.
+                                </td>
+
+                                <td>
+                                    Variable
+                                </td>
+
+                                <td>
+                                    Código, imágenes, audio, ciencia, etc.
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+
+                <div class="classification-note">
+
+                    <strong>Importante:</strong>
+
+                    <p>
+                        El tamaño de un modelo no determina por sí solo
+                        su utilidad. La arquitectura, los datos, el
+                        entrenamiento, la especialización y el hardware
+                        también influyen en su rendimiento.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ECOSISTEMA
+        ========================== -->
+
+        <section class="section section-dark" id="ecosistema">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">06 / ECOSISTEMA</span>
+
+                    <h2>
+                        Más allá del
+                        <span>modelo</span>
+                    </h2>
+
+                    <p>
+                        Un sistema moderno de IA puede conectarse con
+                        herramientas, datos y servicios externos.
+                    </p>
+                </div>
+
+
+                <div class="ecosystem-grid">
+
+                    <article class="ecosystem-card">
+                        <div class="ecosystem-icon">P</div>
+
+                        <h3>Plugins</h3>
+
+                        <p>
+                            Extensiones que agregan capacidades o conectan
+                            un sistema de IA con servicios externos.
+                        </p>
+                    </article>
+
+
+                    <article class="ecosystem-card">
+                        <div class="ecosystem-icon">C</div>
+
+                        <h3>Conectores</h3>
+
+                        <p>
+                            Permiten que una aplicación de IA acceda a
+                            información o servicios externos autorizados.
+                        </p>
+                    </article>
+
+
+                    <article class="ecosystem-card">
+                        <div class="ecosystem-icon">M</div>
+
+                        <h3>MCP</h3>
+
+                        <p>
+                            Model Context Protocol es un protocolo abierto
+                            diseñado para conectar modelos con herramientas
+                            y fuentes de contexto mediante una interfaz
+                            estandarizada.
+                        </p>
+                    </article>
+
+
+                    <article class="ecosystem-card">
+                        <div class="ecosystem-icon">S</div>
+
+                        <h3>Skills</h3>
+
+                        <p>
+                            Capacidades o instrucciones especializadas que
+                            permiten organizar cómo un agente realiza
+                            determinadas tareas.
+                        </p>
+                    </article>
+
+                </div>
+
+
+                <div class="ecosystem-flow">
+
+                    <span>MODELO</span>
+                    <b>+</b>
+                    <span>CONTEXTO</span>
+                    <b>+</b>
+                    <span>HERRAMIENTAS</span>
+                    <b>+</b>
+                    <span>SKILLS</span>
+                    <b>→</b>
+                    <strong>AGENTE</strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SEGURIDAD
+        ========================== -->
+
+        <section class="section" id="seguridad">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">07 / SEGURIDAD</span>
+
+                    <h2>
+                        Amenazas de la
+                        <span>IA</span>
+                    </h2>
+
+                    <p>
+                        Las capacidades de la Inteligencia Artificial también
+                        generan nuevos riesgos técnicos y sociales.
+                    </p>
+                </div>
+
+
+                <div class="threat-grid">
+
+                    <article class="threat-card">
+                        <span class="threat-number">01</span>
+
+                        <h3>Deepfakes</h3>
+
+                        <p>
+                            Contenido audiovisual generado o manipulado
+                            mediante IA que puede utilizarse para
+                            suplantaciones y desinformación.
+                        </p>
+
+                        <span class="threat-tag">
+                            MANIPULACIÓN
+                        </span>
+                    </article>
+
+
+                    <article class="threat-card">
+                        <span class="threat-number">02</span>
+
+                        <h3>Phishing automatizado</h3>
+
+                        <p>
+                            Los modelos generativos pueden facilitar la
+                            creación de mensajes personalizados utilizados
+                            en campañas de ingeniería social.
+                        </p>
+
+                        <span class="threat-tag">
+                            CIBERSEGURIDAD
+                        </span>
+                    </article>
+
+
+                    <article class="threat-card">
+                        <span class="threat-number">03</span>
+
+                        <h3>Prompt Injection</h3>
+
+                        <p>
+                            Un atacante puede intentar introducir instrucciones
+                            maliciosas para modificar el comportamiento de
+                            un sistema conectado a herramientas.
+                        </p>
+
+                        <span class="threat-tag">
+                            SEGURIDAD DE IA
+                        </span>
+                    </article>
+
+
+                    <article class="threat-card">
+                        <span class="threat-number">04</span>
+
+                        <h3>Errores y alucinaciones</h3>
+
+                        <p>
+                            Un modelo puede generar información incorrecta
+                            presentada de manera convincente. Por eso las
+                            respuestas deben verificarse en tareas críticas.
+                        </p>
+
+                        <span class="threat-tag">
+                            FIABILIDAD
+                        </span>
+                    </article>
+
+                </div>
+
+
+                <div class="real-case">
+
+                    <div class="case-label">
+                        CASO DEL MUNDO REAL
+                    </div>
+
+                    <h3>
+                        Contenido sintético y desinformación
+                    </h3>
+
+                    <p>
+                        Durante los últimos años se han documentado casos
+                        de imágenes, audios y vídeos generados o modificados
+                        mediante IA utilizados para hacerse pasar por
+                        personas reales o difundir información falsa.
+                    </p>
+
+                    <div class="case-warning">
+                        <strong>Regla práctica:</strong>
+                        verificá el origen de contenido sensible antes de
+                        compartirlo o utilizarlo como evidencia.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTERACTIVO
+        ========================== -->
+
+        <section class="section interactive-section" id="interactivo">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">08 / INTERACTIVO</span>
+
+                    <h2>
+                        ¿Qué modelo
+                        <span>preferís?</span>
+                    </h2>
+
+                    <p>
+                        Elegí un modelo y explicá qué características
+                        valorás. El sistema generará una opinión simulada
+                        basada en tus respuestas.
+                    </p>
+                </div>
+
+
+                <div class="interactive-layout">
+
+                    <form id="modelForm" class="model-form">
+
+                        <label for="modelo">
+                            Modelo favorito
+                        </label>
+
+                        <select id="modelo" required>
+
+                            <option value="">
+                                Seleccioná un modelo
+                            </option>
+
+                            <option value="GPT">
+                                GPT
+                            </option>
+
+                            <option value="Claude">
+                                Claude
+                            </option>
+
+                            <option value="Gemini">
+                                Gemini
+                            </option>
+
+                            <option value="Llama">
+                                Llama
+                            </option>
+
+                            <option value="Mistral">
+                                Mistral
+                            </option>
+
+                            <option value="Otro">
+                                Otro
+                            </option>
+
+                        </select>
+
+
+                        <label for="motivo">
+                            ¿Por qué lo elegís?
+                        </label>
+
+                        <textarea
+                            id="motivo"
+                            rows="6"
+                            placeholder="Por ejemplo: me interesa su capacidad para programar..."
+                            required
+                        ></textarea>
+
+
+                        <label for="prioridad">
+                            ¿Qué característica valorás más?
+                        </label>
+
+                        <select id="prioridad">
+
+                            <option value="razonamiento">
+                                Razonamiento
+                            </option>
+
+                            <option value="programacion">
+                                Programación
+                            </option>
+
+                            <option value="velocidad">
+                                Velocidad
+                            </option>
+
+                            <option value="contexto">
+                                Contexto
+                            </option>
+
+                            <option value="costo">
+                                Costo
+                            </option>
+
+                            <option value="privacidad">
+                                Privacidad
+                            </option>
+
+                        </select>
+
+
+                        <button type="submit" class="btn btn-primary">
+                            Analizar elección
+                        </button>
+
+                    </form>
+
+
+                    <div class="opinion-panel" id="opinionPanel">
+
+                        <div class="opinion-placeholder">
+
+                            <div class="opinion-symbol">
+                                AI
+                            </div>
+
+                            <h3>
+                                Opinión del sistema
+                            </h3>
+
+                            <p>
+                                Completá el formulario para generar
+                                un análisis simulado.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <div class="logo">
+                    <span class="logo-symbol">AI</span>
+                    <span>Inteligencia<span class="logo-accent">IA</span></span>
+                </div>
+
+                <p>
+                    Explorando los fundamentos de la Inteligencia Artificial.
+                </p>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#conceptos">Conceptos</a>
+                <a href="#modelos">Modelos</a>
+                <a href="#seguridad">Seguridad</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                Página educativa sobre Inteligencia Artificial.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script>
+
+        // Menú móvil
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+
+        // Cerrar menú al seleccionar una sección
+        document.querySelectorAll(".nav-links a").forEach(link => {
+
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("active");
+            });
+
+        });
+
+
+        // Simulador de opinión
+        const form = document.getElementById("modelForm");
+        const opinionPanel = document.getElementById("opinionPanel");
+
+        form.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            const modelo = document.getElementById("modelo").value;
+            const motivo = document.getElementById("motivo").value;
+            const prioridad = document.getElementById("prioridad").value;
+
+            if (!modelo || !motivo.trim()) {
+                return;
+            }
+
+            const prioridadTexto = {
+                razonamiento: "capacidad de razonamiento",
+                programacion: "programación",
+                velocidad: "velocidad",
+                contexto: "capacidad de contexto",
+                costo: "eficiencia de costos",
+                privacidad: "privacidad"
+            };
+
+            const mensajes = {
+
+                GPT:
+                    `Tu elección de ${modelo} está relacionada con tu interés por ${prioridadTexto[prioridad]}. Es una familia de modelos ampliamente utilizada en tareas de generación de texto, programación y asistencia general.`,
+
+                Claude:
+                    `Tu elección de ${modelo} muestra que valorás especialmente ${prioridadTexto[prioridad]}. La familia Claude se utiliza en tareas de lenguaje, análisis y programación, entre otros usos.`,
+
+                Gemini:
+                    `Tu elección de ${modelo} parece estar relacionada con ${prioridadTexto[prioridad]}. La familia Gemini está orientada a tareas multimodales y de generación y comprensión de información.`,
+
+                Llama:
+                    `Tu elección de ${modelo} destaca una preferencia por ${prioridadTexto[prioridad]}. Llama es una familia de modelos que también resulta relevante para desarrolladores interesados en ejecutar o adaptar modelos.`,
+
+                Mistral:
+                    `Tu elección de ${modelo} pone el foco en ${prioridadTexto[prioridad]}. Mistral ofrece diferentes modelos orientados a tareas de lenguaje y desarrollo de aplicaciones con IA.`,
+
+                Otro:
+                    `Elegiste un modelo diferente y destacaste ${prioridadTexto[prioridad]}. Comparar modelos requiere observar la tarea concreta, el rendimiento, los costos, las licencias y los requisitos de hardware.`
+
+            };
+
+            opinionPanel.innerHTML = `
+
+                <div class="opinion-result">
+
+                    <span class="result-label">
+                        ANÁLISIS SIMULADO
+                    </span>
+
+                    <div class="result-model">
+                        ${modelo}
+                    </div>
+
+                    <p class="result-text">
+                        ${mensajes[modelo]}
+                    </p>
+
+                    <div class="user-reason">
+
+                        <strong>
+                            Tu motivo
+                        </strong>
+
+                        <p>
+                            "${motivo}"
+                        </p>
+
+                    </div>
+
+                    <div class="result-note">
+
+                        Este análisis es educativo y no representa una
+                        evaluación objetiva o definitiva del modelo elegido.
+
+                    </div>
+
+                </div>
+
+            `;
+
+        });
+
+    </script>
+
+</body>
+</html>+
